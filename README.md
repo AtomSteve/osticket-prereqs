@@ -44,7 +44,8 @@ To start you must enable IIS in Windows With CGI.  Press start on the windows ta
 </p>
 <br />
 
-![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/7eeb5cfb-6ac6-419e-bbb2-05b32863520e)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/4730b958-c668-4d97-98f1-a3b025c366ad)
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/7eeb5cfb-6ac6-419e-bbb2-05b32863520e)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/4730b958-c668-4d97-98f1-a3b025c366ad)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/c3bb14fc-c4d4-4bd3-8b5a-59cfbc73e336)
+
 
 
 
