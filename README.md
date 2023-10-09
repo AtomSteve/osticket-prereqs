@@ -55,12 +55,33 @@ To start you must enable IIS in Windows With CGI.  Press start on the windows ta
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Download the following files.  On MYSQL download choose Typical Setup -> Launch Configuration Wizard -> Standard Configuration -> (Choose a Password)
+After Register PHP from within IIS
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/24362059-3597-4264-86aa-e1ccc61fba63)
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/6dba7c20-fd79-4c49-a61d-b31462c8d6b9)
+
+</p>
+<br />
+Next Open up IIS, double click on PHP Manager -> Register new PHP version -> browse to C-drive -> PHP -> php-cgi- then execute
+
+<p>
+
+
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/51f27ae8-d5d3-450e-872e-07a18aea36aa)
+
+
+
+
+
+
+
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
