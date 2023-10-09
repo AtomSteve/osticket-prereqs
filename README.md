@@ -21,11 +21,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Download and install PHP Manager 
-- Download and install the Rewrite Module
-- Download and iNstall PHP 7.3.8
-- Download and install VC_redist.86.exe
-- Download and install MYSQL 5.5.62
+-  PHP Manager 
+-  the Rewrite Module
+-  PHP 7.3.8
+-  VC_redist.86.exe
+-  MYSQL 5.5.62
 - Download and install osTicket 
 
 
