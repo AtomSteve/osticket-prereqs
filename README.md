@@ -85,7 +85,7 @@ Next Open up IIS, double click on PHP Manager -> Register new PHP version -> bro
 </p>
 <p>
 Now install osTicket.  Extract and copy "upload" folder to c:inetpup/wwwroot.  
-  Reload IIS, then go to sites -> default ->osTicket -> on the right, click "Browse :80".  Go back to IIS, sites ->Default -> osTicket -> Double-click PHP Manager -> "Enable or disable an extension.  Enable the following (php_imap.dll, php_intl.dll, php_opache.dll)                                                                                                                                                                                                                                                                                      
+  Reload IIS, then go to sites -> default ->osTicket -> on the right, click "Browse :80".  Go back to IIS, sites ->Default -> osTicket -> Double-click PHP Manager -> "Enable or disable an extension.  Enable the following (php_imap.dll, php_intl.dll, php_opache.dll) and refresh                                                                                                                                                                                                                                                                                     
   
   
 </p>
@@ -96,3 +96,26 @@ Now install osTicket.  Extract and copy "upload" folder to c:inetpup/wwwroot.
 ![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/cbbb5b04-acfa-4b88-8c8f-41bd887944ec)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/12d35f36-86e9-4d3a-8381-69e396ec704b)
 
 
+
+
+</p>
+<p>
+Now Rename:ost-config.php.  C:/inetpub\wwwroot\osTicket\include\ost-sampleconfig.php To:  C:/inetpub\wwwroot\osTicket\include\ost-config.  After renaming it give it permissions by righting clicking ost-config -> protperties -> Security -> Advanced -> Disable inheritance.  Then with New permission ->Everyone -> All
+
+</p>
+<br />
+
+</p>
+
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/9b182de8-ed1d-4ff4-893e-d28ba1400fe5)
+
+
+</p>
+<p>
+
+
+
+</p>
+<br />
+
+</p>
