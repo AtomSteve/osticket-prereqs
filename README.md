@@ -113,9 +113,26 @@ Now Rename:ost-config.php.  C:/inetpub\wwwroot\osTicket\include\ost-sampleconfig
 </p>
 <p>
 
-
+Go back to IIS and browse back to "Browse :80, and continue to setup osTicket.  When you get to my SQL database, open Heidi SQL -> riht click unamed -> Create a new session, make root password -> Connect to session -> Create a database called "osTicket".  Continue setting up osticket in browser with the credetials you created and press intall now. 
 
 </p>
 <br />
 
 </p>
+
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/55e6b867-f95e-46e0-83ec-54035e17a375) ![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/b990a3e1-ad91-4946-a1a8-142ceb7143af)
+ ![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/d0dedb3c-fc61-4a82-8ef8-49b5101669c1) ![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/742850e9-3e29-438c-bdbc-18abfb2f66e2)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/5d3dd8f9-28d1-4a87-977c-3dc6289c82d4)
+
+</p>
+<p>
+
+IF it looks like this then Congrats!!! 
+
+</p>
+<br />
+
+</p>
+
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/5267d272-f991-4ecf-a70e-503689aa30a0)
+
+
