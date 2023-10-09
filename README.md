@@ -84,6 +84,15 @@ Next Open up IIS, double click on PHP Manager -> Register new PHP version -> bro
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now install osTicket.  Extract and copy "upload" folder to c:inetpup/wwwroot.  
+  Reload IIS, then go to sites -> default ->osTicket -> on the right, click "Browse :80".  Go back to IIS, sites ->Default -> osTicket -> Double-click PHP Manager -> "Enable or disable an extension.  Enable the following (php_imap.dll, php_intl.dll, php_opache.dll)                                                                                                                                                                                                                                                                                      
+  
+  
 </p>
 <br />
+
+</p>
+
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/cbbb5b04-acfa-4b88-8c8f-41bd887944ec)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/12d35f36-86e9-4d3a-8381-69e396ec704b)
+
+
