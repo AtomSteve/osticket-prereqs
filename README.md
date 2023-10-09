@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 -  PHP Manager 
--  the Rewrite Module
+-  Rewrite Module
 -  PHP 7.3.8
 -  VC_redist.86.exe
 -  MYSQL 5.5.62
