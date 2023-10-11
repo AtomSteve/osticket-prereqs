@@ -34,13 +34,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+-  Create recourse group and VM (Virtual machine)
+-  Install/Enavble IIS in Windows with CGI, Common HTTP Features and ISS Managment Console
+-  Install/download the following files, and MySQL and PHP setup
+-  osTicket installation and configuration
+-  Downloading HeidiSQL and Setup
+
 <p>
-
-
-
+  
 </p>
 <p>
-To start you must enable IIS in Windows With CGI.  Press start on the windows tab, and go to control panel.  Click on programs, then go to "Turn Windows features on or off" and navigate to Worle Wide Web Services -> Application Develoment Features -> Enable CGI, Common HTTP Features.  Also Enable IIS Management Console - Internet INformation Services ->Web managment Tool -> IIS Managment Console -> enable IIS MANAGMENT CONSOLE
+
+<h2>Create recourse group and VM (Virtual machine)</h2>
+
+Create a Recource group and give it a name.  Once the group is made create a Virtual machine and Name it "osTicket".  After the VM is done setting up copy the ip address and login with the credentials you made.  
+
+<p>
+
+![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/546313d4-d9f1-4542-9118-eab41441ca9d)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/c2dd0f70-3c69-48eb-bf24-9d509d70e89a)![image](https://github.com/AtomSteve/osticket-prereqs/assets/147112183/f8bdf351-07e9-4233-9e6b-80632366ac2b)
+
+
+
+  
+</p>
+<p>
+
+  <h2>Install/Enable IIS in Windows with CGI, Common HTTP Features and ISS Managment Console</h2>
+  
+Once your logged into your Virtual Machine we must enable IIS in Windows With CGI.  Press start on the windows tab, and go to control panel.  Click on programs, then go to "Turn Windows features on or off" and navigate to Worle Wide Web Services -> Application Develoment Features -> Enable CGI, Common HTTP Features.  Also Enable IIS Management Console - Internet INformation Services ->Web managment Tool -> IIS Managment Console -> enable IIS MANAGMENT CONSOLE
 </p>
 <br />
 
@@ -55,6 +76,8 @@ To start you must enable IIS in Windows With CGI.  Press start on the windows ta
 
 </p>
 <p>
+<h2>Install/download the following files, and MySQL and PHP setup</h2>
+  
 Download the following files.  On MYSQL download choose Typical Setup -> Launch Configuration Wizard -> Standard Configuration -> (Choose a Password)
 After Register PHP from within IIS
 </p>
