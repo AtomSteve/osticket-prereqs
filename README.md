@@ -27,7 +27,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -  PHP 7.3.8
 -  VC_redist.86.exe
 -  MYSQL 5.5.62
-- Download and install osTicket 
+- Download and install osTicket
+  
 
 
 
@@ -37,8 +38,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -  Create recourse group and VM (Virtual machine)
 -  Install/Enavble IIS in Windows with CGI, Common HTTP Features and ISS Managment Console
 -  Install/download the following files, and MySQL and PHP setup
--  osTicket installation and configuration
+-  osTicket installation
 -  Downloading HeidiSQL and Setup
+
 
 <p>
   
@@ -107,6 +109,9 @@ Next Open up IIS, double click on PHP Manager -> Register new PHP version -> bro
 
 </p>
 <p>
+
+<h2>osTicket installation and Setup</h2>
+  
 Now install osTicket.  Extract and copy "upload" folder to c:inetpup/wwwroot.  
   Reload IIS, then go to sites -> default ->osTicket -> on the right, click "Browse :80".  Go back to IIS, sites ->Default -> osTicket -> Double-click PHP Manager -> "Enable or disable an extension.  Enable the following (php_imap.dll, php_intl.dll, php_opache.dll) and refresh                                                                                                                                                                                                                                                                                     
   
@@ -135,6 +140,8 @@ Now Rename:ost-config.php.  C:/inetpub\wwwroot\osTicket\include\ost-sampleconfig
 
 </p>
 <p>
+
+<h2>Downloading HeidiSQL and Setup</h2>
 
 Go back to IIS and browse back to "Browse :80, and continue to setup osTicket.  When you get to my SQL database, open Heidi SQL -> riht click unamed -> Create a new session, make root password -> Connect to session -> Create a database called "osTicket".  Continue setting up osticket in browser with the credetials you created and press intall now. 
 
